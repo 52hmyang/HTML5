@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>표 연습</title>
+    </head>
+    <body>
+        <h1>표 작성(테이블작성)</h1>
+        <table border = "1">    // 표 테두리 두께 지정 속성
+            <thead bgcolor = "red">
+                <tr>  // 표에 행 삽입
+                    <th></th>   // 표의 제목 셀 생성
+                    <th>MON</th>
+                    <th>TUS</th>
+                    <th>WED</th>
+                    <th>THU</th>
+                    <th>FRI</th>
+                    <th>SAT</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td><td>전산수학</td><td>전산영어</td><td>GX</td><td>HTML5</td><td>자료구조</td><td rowspan = "3">스터디</td>  // 표의 일반 셀 생성
+                </tr>
+                <tr>
+                    <td>2</td><td>JAVA</td><td>UI/UX</td><td>TOEIC</td><td></td><td></td>
+                </tr>
+                <tr>
+                    <td>3</td><td>TOEIC</td><td>교양</td><td></td><td></td><td></td>
+                </tr>
+            </tbody>
+            <br><br><br>
+            <table border = "1">
+            <thead>
+                <tr>
+                    <th colspan = "2">지역별 홍차</th>   // 셀의 너비 지정
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan = "3">중국</th><td>정산소종</td>    // 셀의 높이 
+                </tr>
+                <tr><td>기문</td></tr>
+                <tr><td>운남</td></tr>
+                <tr>
+                    <th rowspan = "4">인도 및 스리랑카</th><td>아삼</td>
+                </tr>
+                <tr><td>실론</td></tr>
+                <tr><td>다질링</td></tr>
+                <tr><td>닐기리</td></tr>
+            </tbody>
+        </table>
+        </table>
+
+
+    </body>
+</html>
