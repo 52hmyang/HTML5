@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">  // 한국어
+<head>
+    <title>HTML5 200903</title>   // 페이지 제목 지정
+    <link rel="stylesheet" href="style.css">  // 외부 스타일시트
+    <!--<style>       // 내부 스타일시트(주석)
+        h1{
+            color : black;
+            background : ivory;
+        }
+    </style>-->
+    <script>    // 웹페이지에 스크립트 추가
+        // 들어가면 경고 창을 출력합니다
+        alert('Hello world..!');    // 내부 자바스크립트
+    </script>
+    <script src="OuterJavaScript.js"></script>  <!--두창이 다 뜬다-->   // 외부 자바스크립트
+</head>
+<body>
+    <h1>HELLO WORLD..!</h1>
+    My name is Yang Hyemin.
+</body>
+</html>
